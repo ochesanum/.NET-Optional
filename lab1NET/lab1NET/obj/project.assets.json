@@ -8,19 +8,24 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mihoc\\.nuget\\packages\\": {}
+    "C:\\Users\\Q\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mihoc\\RiderProjects\\lab1NET\\lab1NET\\lab1NET.csproj",
+      "projectUniqueName": "E:\\uni\\.NET\\.NET-Optional\\lab1NET\\lab1NET\\lab1NET.csproj",
       "projectName": "lab1NET",
-      "projectPath": "C:\\Users\\mihoc\\RiderProjects\\lab1NET\\lab1NET\\lab1NET.csproj",
-      "packagesPath": "C:\\Users\\mihoc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mihoc\\RiderProjects\\lab1NET\\lab1NET\\obj\\",
+      "projectPath": "E:\\uni\\.NET\\.NET-Optional\\lab1NET\\lab1NET\\lab1NET.csproj",
+      "packagesPath": "C:\\Users\\Q\\.nuget\\packages\\",
+      "outputPath": "E:\\uni\\.NET\\.NET-Optional\\lab1NET\\lab1NET\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\mihoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
