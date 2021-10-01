@@ -2,7 +2,7 @@
 
 namespace lab1NET
 {
-    public class Arhitect : Employee
+    public class Arhitect : Employee 
     {
         public Arhitect()
         {
@@ -19,7 +19,7 @@ namespace lab1NET
         }
         public override String Salutations()
         {
-            return "Hello Arhitect";
+            return "Hello Arhitect " + GetFullName() ;
         }
     }
 }

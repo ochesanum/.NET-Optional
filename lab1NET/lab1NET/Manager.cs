@@ -2,7 +2,7 @@
 
 namespace lab1NET
 {
-    public class Manager : Employee
+    public class Manager : Employee   //mosteneste pe Employee (va avea toate metodele si variabilele clasei baza)
     {
        
 
@@ -20,9 +20,9 @@ namespace lab1NET
             this.salary = salary;
         }
 
-        public override String Salutations()
+        public override String Salutations() //face override la metoda abstracta din clasa parinte si afiseaza si numele
         {
-            return "Hello Manager" + GetFullName();
+            return "Hello Manager " + GetFullName();
         }
         
     }

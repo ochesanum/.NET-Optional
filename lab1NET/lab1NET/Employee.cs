@@ -17,14 +17,17 @@ namespace lab1NET
         
         public String IsActive()
         {
-            if ((EndDate.Ticks - StartDate.Ticks) < 0)
-                return "Inactive";
+            if ((EndDate.Ticks - StartDate.Ticks) > (DateTime.Now.Ticks - StartDate.Ticks))
+                return "Active";
 
-            return "Active";
+            return "Inactive";
 
         }
 
 
         public abstract String Salutations();
+        //clasa Employee este clasa parinte si nu avem nevoie sa o instantiem, de aceea am folosit abstract
+        //fiecare copil isi implementeaza metoda Salutations dupa comportamentul necesar (ex: Hello Arhitect/Hello Manager) 
+        //in caz ca am utiliza keywordul 'virtual' ar trebui sa facem un default implementation in clasa parinte, lucru care nu este necesar
     }
 }
