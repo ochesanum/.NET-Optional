@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mihoc\\RiderProjects\\lab2NET\\lab2NET\\lab2NET.csproj": {}
+    "E:\\uni\\.NET\\.NET-Optional\\lab2NET\\lab2NET\\lab2NET.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mihoc\\RiderProjects\\lab2NET\\lab2NET\\lab2NET.csproj": {
+    "E:\\uni\\.NET\\.NET-Optional\\lab2NET\\lab2NET\\lab2NET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mihoc\\RiderProjects\\lab2NET\\lab2NET\\lab2NET.csproj",
+        "projectUniqueName": "E:\\uni\\.NET\\.NET-Optional\\lab2NET\\lab2NET\\lab2NET.csproj",
         "projectName": "lab2NET",
-        "projectPath": "C:\\Users\\mihoc\\RiderProjects\\lab2NET\\lab2NET\\lab2NET.csproj",
-        "packagesPath": "C:\\Users\\mihoc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mihoc\\RiderProjects\\lab2NET\\lab2NET\\obj\\",
+        "projectPath": "E:\\uni\\.NET\\.NET-Optional\\lab2NET\\lab2NET\\lab2NET.csproj",
+        "packagesPath": "C:\\Users\\Q\\.nuget\\packages\\",
+        "outputPath": "E:\\uni\\.NET\\.NET-Optional\\lab2NET\\lab2NET\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mihoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
