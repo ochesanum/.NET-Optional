@@ -9,7 +9,7 @@ namespace lab2NET
         private static string dataType;
         private static string FILE_NAME;
         private static int internalFlag;
-        public static void SetFlags(string data)
+        public static void SetFlags(string data)  //set correct pathname and flag depending on the type of data we need(weather,football)
         {
             dataType = data;
             if (dataType == "weather")
@@ -33,7 +33,7 @@ namespace lab2NET
                 using (var sr = new StreamReader(FILE_NAME))
                 {
                     // Read the stream as a string, and write the string to the console.
-                    var list = new List<string[]>();
+                    var list = new List<string[]>();  //creating a list of string arrays
                     string line;
                     while((line = sr.ReadLine()) != null)  
                     {  
@@ -42,8 +42,9 @@ namespace lab2NET
                     }
                     if (internalFlag == 1)
                     {
-                        for (int i = 2; i < list.Count-1; i++)
+                        for (int i = 2; i < list.Count-1; i++)  //parsing weather.dat
                         {
+                            //trimming the "*" character if it's required from the numbers
                             if (list[i][1].Contains("*"))
                                 list[i][1] = list[i][1].Trim(new char[] {'*'});
                             if (list[i][2].Contains("*"))
@@ -60,8 +61,9 @@ namespace lab2NET
                     }
                     else
                     {
-                        for (int i = 1; i < list.Count; i++)
+                        for (int i = 1; i < list.Count; i++)  //parsing football.dat
                         {
+                            //checking for the "-" character when it's out of place
                             if(!list[i][0].Contains("-"))
                             {
                                 int newMin = Math.Abs(Int32.Parse(list[i][6]) - Int32.Parse(list[i][8]));
